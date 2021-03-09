@@ -1,0 +1,338 @@
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../font/GothamPro-Bold.eot');
+    src: local('../font/Gotham Pro Bold'), local('GothamPro-Bold'),
+        url('../font/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/GothamPro-Bold.woff2') format('woff2'),
+        url('../font/GothamPro-Bold.woff') format('woff'),
+        url('../font/GothamPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  /* width: 100%;
+  height: 100%; */
+  margin: 0 auto;
+  line-height: 1;
+  overflow-x: hidden;
+  /* max-width: 1920px; */
+}
+
+*,*:before,*:after{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    background:#F8F8F8;
+    overflow: hidden;
+    position: relative;
+}
+
+.header--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1100px;
+    z-index: 2;
+    margin-bottom: 130px;
+    /* border: 1px solid; */
+}
+
+.container-logo {
+    margin-top: 27.12px; 
+    width: 170px;
+}
+
+.container-new-eco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h1-like {
+    font-family: Gotham Pro;
+    /* font-style: normal; */
+    /* font-weight: normal; */
+    font-size: 72px;
+    line-height: 80px;
+    color: #000000;
+    transform: rotate(-0.05deg);
+    margin-bottom: 33px;
+}
+
+.p-like {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.buuton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2A2A2A;
+    width: 370px;
+    height: 60px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.buuton a {
+    text-decoration: none;
+    color: white;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF; 
+    cursor: pointer;
+}
+
+
+.header--container-radius {
+    position: absolute;
+    /* width: 1134px; */
+    /* height: 1134px; */
+    /* border-radius: 567px; */
+    /* top: -132px; */
+    right: -200px;
+    /* left: 835px; */
+    /* background: #FFFF02; */
+}
+
+/* .header--container-radius:after {
+    position: absolute; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+} */
+
+/* .header--container-radius {
+    position: absolute;
+} */
+
+.main {
+    display: flex;
+    justify-content: center;
+    background: white;
+    margin-bottom: 136px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 120px;
+    /* border: 1px solid; */
+    width: 1120px;
+    z-index: 3;
+}
+
+.our-packacing {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 84px;
+}
+
+.our-packacing .h2-like {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.p-likes {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+.main-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+.radius-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid #FFFF02;
+    margin-bottom: 25px; 
+}
+
+
+
+.text-p {
+    margin-bottom: 25px;
+    width: 120px;
+}
+
+
+.main-packing {
+    display: flex;
+    justify-content: center;
+    background: #F8F8F8;
+}
+
+.main-container-packing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-picking-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70.42px;
+}
+
+.h1-packing {
+    margin-top: 90px;
+    width: 600px;
+    height: 78px;
+    left: 609px;
+    top: 1576px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.main-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 92px;
+    /* border: 1px solid; */
+}
+
+.text-right {
+    margin-left: 20px;
+}
+
+.icon-right {
+    margin-left: 20px;
+}
+
+.main-packing-icon-text {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+}
+
+.packing-icon {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.packing-text {
+    display: flex;
+    text-align: start;
+}
+
+ .packing-text p {
+    /* width: 220px;
+    height: 30px;
+    left: 375px;
+    top: 1744px; */
+    width: 215px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
+} 
+
+
