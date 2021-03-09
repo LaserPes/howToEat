@@ -224,6 +224,8 @@ html {
 
 .main-logo {
     display: flex;
+    /* display: grid; */
+    /* grid-template-columns: grid-auto-flow; */
     flex-direction: row;
     justify-content: space-between;
 }
